@@ -16,9 +16,9 @@ char * get_string(string string)
 {
     char * m;
 
-    printf("%s",string.c_str());
-    scanf("%s", m);
-    printf("m in get_string is: %s\n",m);
+    printf("%s",string);//.c_str());
+    scanf("%s", &m);//, m);
+    printf("m in get_string is: %s\n",&m);//, m);
 
     return m;
 }
