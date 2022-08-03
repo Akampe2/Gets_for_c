@@ -12,14 +12,16 @@ int get_int(string string)
     return n;
 }
 
-char * get_string(string string)
+char *get_string(string word)
 {
-    char * m;
+    char *temp = " ";
+    //printf("%s",string);
 
-    printf("%s",string);//.c_str());
-    scanf("%s", &m);//, m);
-    printf("m in get_string is: %s\n",&m);//, m);
-
+    printf("%s",word);
+    scanf("%s", &temp);
+    char * m = &temp;
+    printf("temp in get_string is: %s\n",m);
+    //printf("Height is: %i", n);
     return m;
 }
 
